@@ -1,0 +1,182 @@
+*{box-sizing: border-box;
+  border-collapse:collapse; }
+h1 {
+color: #000000;
+text-align: center;
+width: 100%;
+}
+
+body {
+  background-color: #FFFFFF ;
+}
+
+h2 {
+background-color: #530022;
+color: #FFFAF0;
+border-bottom: 1px solid #000000;
+border-left: 1px solid #000000;
+font-family: "lucida console";
+font-size: 180%;
+padding: 1% 8% 1% 8%;
+margin-bottom: 0%;
+border-collapse:collapse;
+}
+
+h2.Ao {
+background-color: #ff33b2;
+}
+
+h2.Bo {
+  background-color:  #ff4430;
+}
+
+h2.Co {
+  background-color: #2E2EFF;
+}
+
+p {
+  background-color: #696969  ;
+  color: #FFF8DC;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: helvetica;
+  font-size: large;
+}
+
+.media_1 {
+  border: 1px solid #000000;
+  border-collapse:collapse;
+}
+
+.media_2 {
+  border: 1px solid #000000;
+  border-collapse:collapse;
+}
+
+.media_3 {
+  border: 1px solid #000000;
+  border-collapse:collapse;
+}
+
+.container {
+  width: 100%;
+  
+}
+/*Layout in desktop view*/
+@media (min-width: 992px) {
+
+  body{
+  margin:0;
+}
+
+  h2 {
+  float: right;
+  margin-top: 0%
+  }
+  
+  p {
+    padding-top: 7%;
+    margin-top: 5%;
+  }
+  
+  .media_1 {
+  float: left;  
+  width: 30.33%;
+  background-color: #696969  ;
+  margin: 2% 0.5% 2% 2%;
+  }
+
+  .media_2 {
+    float: left;
+    width: 30.33%;
+    background-color: #696969  ;
+    margin: 2% 0.5% 2% 2%;
+  }
+  
+  .media_3 {
+    float: left;
+    width: 30.33%;
+    background-color: #696969  ;
+    margin: 2% 0.5% 2% 2%;
+  }
+}
+/*Layout in tablet view*/
+@media (min-width: 768px) and (max-width: 991px){
+  
+  body{
+    margin:0;
+  }
+  
+  h2 {
+  
+  float: right;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  }
+  
+  p {
+    padding-top: 8%;
+    margin-top: 5%;
+  }
+  
+  p.Boxe3 {
+    padding-top: 3%;
+  }
+  
+  .media_1 {
+  float: left;  
+  margin: 5% 3% 3% 3%;
+  width: 45%;
+  background-color: #696969 ;
+  }
+  
+  .media_2 {
+    float: left;
+    margin: 5% 3% 3% 0%;
+    width: 45%;
+    background-color: #696969 ;
+  }
+  
+  .media_3 {
+    float: left;
+    margin: 0% 0% 0% 3%;
+    width: 93.2%;
+    background-color: #696969 ;
+  }
+
+}
+
+/*Layout in phone view*/
+@media (max-width: 767px) {
+  
+  body{
+    margin:0;
+  }
+  
+  h2 {
+  float: right;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  }
+  
+  p {
+    background-color: #696969 ;
+    padding-top: 4%;
+    margin-top: 5%;
+  }
+  
+  .media_1 {
+  margin: 5% 5% 5% 5%;
+  background-color: #696969 ;
+  }
+  
+  .media_2 {
+    margin: 5% 5% 5% 5%;
+    background-color: #696969 ;
+  }
+  
+  .media_3 {
+    margin: 5% 5% 5% 5%;
+    background-color: #696969 ;
+  }
+}
